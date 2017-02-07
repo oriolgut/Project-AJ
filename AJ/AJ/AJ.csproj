@@ -191,6 +191,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controllers\AJController.cs" />
     <Compile Include="DAL\AJContext.cs" />
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
@@ -287,6 +288,11 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
+    <Content Include="Views\AJ\Create.cshtml" />
+    <Content Include="Views\AJ\Delete.cshtml" />
+    <Content Include="Views\AJ\Details.cshtml" />
+    <Content Include="Views\AJ\Edit.cshtml" />
+    <Content Include="Views\AJ\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
