@@ -2,7 +2,7 @@
 using System.Data.Entity;
 using System.Data.Entity.ModelConfiguration.Conventions;
 
-namespace AJ
+namespace AJ.DAL
 {
     public class AJContext : DbContext
     {

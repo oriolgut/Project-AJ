@@ -5,14 +5,14 @@ namespace AJ.Migrations
     using System.Data.Entity.Migrations;
     using System.Linq;
 
-    internal sealed class Configuration : DbMigrationsConfiguration<AJ.AJContext>
+    internal sealed class Configuration : DbMigrationsConfiguration<AJ.DAL.AJContext>
     {
         public Configuration()
         {
             AutomaticMigrationsEnabled = false;
         }
 
-        protected override void Seed(AJ.AJContext context)
+        protected override void Seed(AJ.DAL.AJContext context)
         {
             //  This method will be called after migrating to the latest version.
 
